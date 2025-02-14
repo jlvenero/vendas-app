@@ -4,10 +4,10 @@ import { Layout } from "components"
 const Home: React.FC = () => {
   return (
     <div>
-      <h1>
+      <Head>
         <title>Vendas App</title>
         <link rel="icon" href="/favicon.ico" />
-      </h1>
+      </Head>
 
       <Layout />
     </div>
